@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "823730893276",
+    "firebase_url": "https://reportomas-772e2.firebaseio.com",
+    "project_id": "reportomas-772e2",
+    "storage_bucket": "reportomas-772e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823730893276:android:702538bc2f950135",
+        "android_client_info": {
+          "package_name": "com.example.amalip.reportomas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823730893276-bh090e916s7hf1j8t1kk91erga53pdvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amalip.reportomas",
+            "certificate_hash": "77b26229e7f37d45cb52565953016a02be93a85f"
+          }
+        },
+        {
+          "client_id": "823730893276-oj20jjui8nicr9depm98idsm0t8mv94s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUULqYUYATOidOfyDO4iws9IIzZj2eXzE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823730893276-oj20jjui8nicr9depm98idsm0t8mv94s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
