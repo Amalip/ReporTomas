@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.example.amalip.reportomas.LoginFragment">
+    tools:context="com.example.amalip.reportomas.Login.LoginFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -31,8 +31,9 @@
             android:textStyle="bold" />
         <EditText
             android:id="@+id/edtUsername"
-            android:layout_width="160dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:inputType="text"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -42,9 +43,10 @@
             android:textColor="@android:color/black"
             android:textStyle="bold" />
         <EditText
-            android:id="@+id/btnPassword"
-            android:layout_width="160dp"
+            android:id="@+id/edtPassword"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,10 +60,10 @@
                 android:layout_height="wrap_content"
                 android:text="Login"/>
             <Button
-                android:id="@+id/btnSignL"
+                android:id="@+id/btnSignUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sign In"/>
+                android:text="Sign Up"/>
 
         </LinearLayout>
         <LinearLayout
@@ -70,15 +72,13 @@
             android:orientation="horizontal"
             android:gravity="center"
             android:layout_marginTop="20dp">
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/fb"/>
-            <Button
-                android:id="@+id/btnSignfbL"
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Facebook Login"/>
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp" />
 
         </LinearLayout>
         <TextView

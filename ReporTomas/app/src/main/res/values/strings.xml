@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ReporTomas</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="facebook_app_id">575483196127265</string>
+    <string name="fb_login_protocol_scheme">fb575483196127265</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_second">SecondActivity</string>
 </resources>
